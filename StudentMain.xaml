@@ -1,0 +1,15 @@
+﻿<Window x:Name="wndStudentMain" x:Class="Student_Addresses.StudentMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Student_Addresses"
+        mc:Ignorable="d"
+        Title="Student Addresses" Height="450" Width="379">
+    <Grid>
+        <Button x:Name="btnAddStudent" Content="_Add Student" HorizontalAlignment="Left" Height="70" Margin="75,59,0,0" VerticalAlignment="Top" Width="219" FontSize="19" Click="btnAddStudent_Click"/>
+        <Button x:Name="btnViewAllStudents" Content="_View All Students" HorizontalAlignment="Left" Height="70" Margin="75,174,0,0" VerticalAlignment="Top" Width="219" FontSize="19" Click="btnViewAllStudents_Click"/>
+        <Button x:Name="btnExitApplication" Content="E_xit" HorizontalAlignment="Left" Height="70" Margin="75,294,0,0" VerticalAlignment="Top" Width="219" FontSize="19" Click="btnExitApplication_Click"/>
+
+    </Grid>
+</Window>
